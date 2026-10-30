@@ -1,7 +1,3 @@
-// ============================================================
-// reactor/routes.js - Rutas del Ejercicio 1: Estabiliza el Reactor.
-// server.js lo monta en "/" (sin prefijo): POST /adjust y POST /reboot.
-// ============================================================
 import { Router } from 'express';
 import { ajustar, reiniciar } from './reactorController.js';
 

@@ -1,11 +1,8 @@
-// ============================================================
-// reactorController.js - Lee la petición, valida y responde (Ejercicio 1).
-// ============================================================
 import * as reactorService from './reactorService.js';
 
 export function ajustar(req, res, next) {
   try {
-    // En Express 5 req.body es undefined si no llega JSON: usamos ?? {}
+
     const datoRecibido = (req.body ?? {}).temperatura;
     const temperaturaIngresada = Number(datoRecibido);
 

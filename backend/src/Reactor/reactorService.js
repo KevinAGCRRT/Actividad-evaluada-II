@@ -1,8 +1,3 @@
-// ============================================================
-// reactorService.js - Lógica del Reactor (Ejercicio 1).
-// La temperatura objetivo vive en memoria y se genera al iniciar el servidor.
-// ============================================================
-
 function generarTemperaturaAleatoria() {
   return Math.floor(Math.random() * 100) + 1;
 }
